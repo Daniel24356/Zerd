@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {productData} from '../../Data/Ecommerce.json';
 import "./not.css"
 import { useCart } from 'react-use-cart';
