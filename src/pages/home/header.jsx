@@ -296,7 +296,7 @@ const Header = () => {
 
                         <div className="shop">
                             <div className="shop-inner">
-                                <p>Blog</p>
+                            <Link to="/BlogPage" className="home-sps">Blog</Link>
                                 <RiArrowDropDownLine className="drop-icon" />
                             </div>
                             <div className="shop-side">

@@ -13,6 +13,7 @@ import Signup from './pages/home/Signup'
 import { CartProvider } from 'react-use-cart'
 import { WishlistProvider } from './context/WishlistContext'
 import { ComparableProvider } from './context/ComparableContext'
+import { BlogPage } from './pages/Blog/BlogPage'
 function App() {
 
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path='/Product' element={<QuickView/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/signup' element={<Signup/>}/>
+          <Route path='/BlogPage' element={<BlogPage/>}/>
         </Routes>
        </Router>
          </ComparableProvider>
